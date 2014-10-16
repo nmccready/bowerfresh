@@ -1,0 +1,18 @@
+{
+  "name": "bowerfresh",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nmccready/bowerfresh",
+  "authors": [
+    "Nick McCready <nmccready@gmail.com>"
+  ],
+  "description": "test",
+  "license": "MIT",
+  "private": true,
+  "sofresh": [
+    "ns2"
+  ],
+  "dependencies": {
+    "ns2": "~1.0.3"
+  }
+}

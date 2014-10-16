@@ -1,0 +1,32 @@
+{
+  "name": "bowerfresh",
+  "version": "0.0.1",
+  "description": "keep bower dependencies fresh",
+  "main": "./bin/bowerfresh",
+  "scripts": {
+    "start": "./bin/bowerfresh",
+    "test": "mocha spec/*_spec.js; rspec;",
+    "ruby": "./bin/bowerfreshrb"
+  },
+  "bin": {
+    "bowerfresh": "./bin/bowerfresh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nmccready/bowerfresh.git"
+  },
+  "keywords": [
+    "bower",
+    "fresh",
+    "dependencies"
+  ],
+  "author": "Nicholas McCready",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmccready/bowerfresh/issues"
+  },
+  "homepage": "https://github.com/nmccready/bowerfresh",
+  "dependencies": {
+    "execSync": "^1.0.2"
+  }
+}
