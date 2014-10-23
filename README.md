@@ -8,7 +8,7 @@ It does this by:
 - uninstalling the dependencies
 
 To uilize bowerfresh add the **sofresh** property. See [this bower file](./bower.json). 
-Then in your buidl routine (package.json or something), do a preinstall and run bowerfresh.
+Then in your build routine (package.json, shell script or something), do a preinstall and run bowerfresh (node) or bowerfreshrb (ruby).
 
 bower.json (add to)
 ```
